@@ -1,0 +1,14 @@
+server:
+  port: 8761
+
+eureka.server.waitTimeInMsWhenSync: 0
+
+eureka.client.register-with-eureka: false
+
+eureka.client.fetchRegistery: false
+
+eureka:
+  server:
+    eviction-interval-timer-in-ms: 1000
+
+
